@@ -10,5 +10,6 @@ public class KeyboardScanner {
 		keyboard.nextLine();
 		String line = keyboard.nextLine();
 		System.out.printf("Hi %s, the multiplication of %d and %f is %.2e",line,numberOfPods,d1,numberOfPods*d1);
+		keyboard.close();
 	}
 }

@@ -10,6 +10,6 @@ public class CheckOddEven {
 		}else{
 			System.out.println("The input Integer is Odd number");
 		}
-		
+		keyboard.close();
 	}
 }
